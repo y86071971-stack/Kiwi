@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 #load model
-model = tf.keras.models.load_model("C:/Users/PC1/Desktop/kiwi/kiwi.h5")
+model = tf.keras.models.load_model("kiwi.h5")
 #load image
 upload_image = st.file_uploader("select image" , type=['jpg' , 'jpeg' ,'png'])
 class_names = ["Kiwi B","Kiwi C","Kiwi A"]
