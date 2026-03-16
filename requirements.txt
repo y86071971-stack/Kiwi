@@ -3,3 +3,6 @@ tensorflow
 scikit-learn
 PIL
 numpy
+shutil
+sklearn.model_selection
+split-folders
